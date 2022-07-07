@@ -1,0 +1,8 @@
+<div style="font-size:1.5rem; font-weight:bold;">{{taxonomy.foogallery_attachment_category}}</div>
+
+<div style="font-size:2.5rem; font-weight:bold;">
+{{title}}
+</div>
+<div style="font-size:1.5rem; font-weight:bold;">
+{{taxonomy.foogallery_attachment_tag}}
+</div>

@@ -1,0 +1,68 @@
+.woocommerce .button.alt {
+height: 33px
+}
+.grid + .copyright {
+    padding-top: 20px;
+    border-top: 2px solid rgba(0, 0, 0, 0);
+}
+
+figcaption.fg-caption {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.fg-caption-inner {
+    height: 100% !important;
+}
+/* .foogallery.fg-video-default .fg-type-video .fg-caption-inner:before {
+    height: 100% !important;
+position: absolute !important;
+} */
+.foogallery.fg-video-default .fg-type-video .fg-caption-inner:before {
+	    background-image: url(https://namastatedev.wpengine.com/wp-content/uploads/2022/06/play.png) !important;
+    height: 100% !important;
+position: absolute !important;
+background-size: 90px 90px !important;
+min-width: 100px !important;
+}
+.fg-caption-desc {
+	font-family:'Skia' !important ; 
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: end !important;
+    width: 100% !important;
+    padding-left: 25px !important;
+    margin-top: -35px !important;
+}
+
+.fg-caption-title {
+    text-align: left !important;
+}
+.fg-caption-inner {
+    text-align: left;
+    justify-content: start;
+}
+.fg-caption-title {
+    width: 98%;
+}
+.fg-caption-desc {
+    width: 98%;
+}
+@media(max-width:1082px){
+	.video-sec {
+    padding: 20px;
+}
+	.tag{
+		padding:0px !important;
+	}
+}
+@media (max-width:767px){
+	.category ul{
+		padding-left:0px;
+		display:block !important;
+		padding-bottom:20px !important;
+	}
+	.category a{
+		padding:0 !important;
+	}
+}
